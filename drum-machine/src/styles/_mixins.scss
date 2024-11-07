@@ -1,0 +1,8 @@
+@use "variables" as *;
+
+@mixin bg-border-pad {
+  border-radius: 5px;
+  border: 2px solid #0000;
+  background: linear-gradient(black, #222) padding-box,
+    linear-gradient(#09f, purple) border-box;
+}
